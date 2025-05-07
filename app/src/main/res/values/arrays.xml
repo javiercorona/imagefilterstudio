@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="filters">
+        <item>cartoonify</item>
+        <item>sketch</item>
+        <item>comic</item>
+    </string-array>
+</resources>

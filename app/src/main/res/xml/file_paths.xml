@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permit access to the app’s external-files directory -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <files-path name="internal_files" path="."/>
+        <files-path name="files" path="."/>
+
+    <!-- Specifically allow your Pictures folder if you use getExternalFilesDir(Environment.DIRECTORY_PICTURES) -->
+    <external-files-path
+        name="images"
+        path="Pictures/" />
+</paths>
